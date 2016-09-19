@@ -25,6 +25,11 @@ public class Section
 		new Section(SectionType.VERGER);
 	}
 	
+	public String toString(){
+		// présente chacun des toString present dans ses sous-sections
+		return null;
+	}
+	
 	public SectionType getTypeSection()
 	{
 		return typeSection;

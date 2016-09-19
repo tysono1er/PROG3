@@ -9,6 +9,10 @@ public class Caisse {
 		
 	}
 	
+	/**
+	 * methode qui fait le traitement du panier et envoie l'argent à l'épicerie
+	 * @param panier Panier avec des produits dedans
+	 */
 	public void payer(Panier panier)
 	{
 		
